@@ -48,14 +48,14 @@ const Calculator = () => {
         <button id="btn-1" className="gray-button" onClick={() => handleButtonPress("1")}>1</button>
         <button id="btn-2" className="gray-button" onClick={() => handleButtonPress("2")}>2</button>
         <button id="btn-3" className="gray-button" onClick={() => handleButtonPress("3")}>3</button>
-        <button className="gray-button" onClick={() => handleButtonPress("-")}>-</button>
+        <button id="btn--" className="gray-button" onClick={() => handleButtonPress("-")}>-</button>
       </div>
 
       <div className="button-row">
         <button className="gray-button" onClick={() => handleButtonPress("0")}>0</button>
         <button className="gray-button" onClick={() => handleButtonPress(".")}>.</button>
         <button className="gray-button" onClick={handleEqual}>=</button>
-        <button className="gray-button" onClick={() => handleButtonPress("+")}>+</button>
+        <button id="plus" className="gray-button" onClick={() => handleButtonPress("+")}>+</button>
       </div>
 
       <div className="button-row">
