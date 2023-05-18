@@ -59,7 +59,7 @@ const Calculator = () => {
                 </div>
 
                 <div className="button-row">
-                    <button className="gray-button" onClick={handleClear}>Clear</button>
+                    <button className="gray-button" onClick={handleClear}>C</button>
                 </div>
             </div>
 
